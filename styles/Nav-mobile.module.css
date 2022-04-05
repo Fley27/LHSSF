@@ -1,0 +1,118 @@
+.container{
+    display: flex; 
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: var(--lightBlack);
+    left: -100%;
+    top: 60px;
+    z-index: 9;
+    transition: left .2s linear;
+    color: var(--lightGray);
+}
+
+@media only screen and (max-width: 830px){
+    .visible{
+        left: 0;
+        overflow: auto;
+        transition: all .4s linear;
+        color: var(--lightGray);
+    }
+
+    .menu{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        background-color: var(--whiter);
+        padding-top: 0;
+        min-width: 360px;
+    }
+
+    .navItem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 60px;
+        height: fit-content;
+        border-bottom: solid .5px var(--lightGray);
+        overflow: hidden;
+        padding-left: 7%;
+    }
+
+    .navItemButton:hover{
+        color: var(--lightBlue);
+    }
+
+    .navItemButton{
+        font-size: 16px;
+        margin: auto 0;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: var(--gray);
+        text-align: left;
+        font-family: var(--monserrat);
+    }
+
+    .navItemButton > i{
+        display: inline-block;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .dropdownMobile{
+        display: none;
+    }
+
+    .navItem:hover .dropdownMobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .navItem:nth-child(3):hover > .navItemButton{
+        height: 60px;
+        margin-left: 0;
+        border-bottom: solid .5px var(--Gray);
+        width: 100%;
+        text-align: left;
+    } 
+
+
+    .dropdownItem{
+        min-height: 50px;
+        height: fit-content;
+        color: var(--gray);
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: solid .5px var(--Gray);
+        cursor: pointer;
+        text-align: left;
+        font-family: var(--monserrat);
+        padding: 0 6px;
+        line-height: 1.8;
+    }
+
+    .dropdownItem:nth-child(4){
+        border-bottom: 0;
+    }
+
+    .dropdownItem:hover{
+        color: var(--lightBlue);
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    .menu{
+        min-width: 250px;
+    }
+}
+

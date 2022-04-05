@@ -6,6 +6,11 @@ import styles from "../../styles/header/Header-body-contact.module.css"
 const HeaderBodyAbout = () => (
     <div className = {styles.container} >
         <div className = {styles.overlay}></div>
+        <div className = {styles.backgroundLeft}>
+            <div className = {`${styles.triangle} ${styles.down}`}></div>
+            <div className = {`${styles.curvedarrow}`}></div>
+            <div className = {`${styles.heart}`}></div>
+        </div>
         <div className = {styles.information}>
             <div className = {styles.item}>
                 <div className = {styles.square}></div>

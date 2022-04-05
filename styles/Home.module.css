@@ -17,7 +17,6 @@
     max-width: var(--maxWidth);
     width: 80%;
     border-left: 2px solid var(--red);
-    margin-bottom: 30px;
 }
 
 .title::before{
@@ -35,6 +34,7 @@
 @media only screen and (max-width: 1080px) {
     .title{
         width: 90% ;
+        margin-bottom: 20px;
     }
 }
 

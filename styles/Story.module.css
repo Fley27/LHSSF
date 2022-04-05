@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 60px 0;
+    padding: 0px 0;
     border-radius: 20px;
     margin: 0 auto;
     position: relative;
@@ -41,7 +41,6 @@
     background-color: var(--white);
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .text{

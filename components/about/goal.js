@@ -1,4 +1,4 @@
-import styles from "../../styles/course/Course.module.css"
+import styles from "../../styles/Goal.module.css"
 
 const Goal = () => (
     <div className = {styles.container}>

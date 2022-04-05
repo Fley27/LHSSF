@@ -1,5 +1,6 @@
 :root{ 
     --black: #202020;
+    --lightBlack: rgba(2, 2, 2, 0.913);
     --white: rgb(240, 240, 240);
     --purple: rgb(145, 24, 145);
     --lightBlue: rgb(125, 183, 184);

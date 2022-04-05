@@ -111,19 +111,23 @@
     color: var(--white);
 }
 
-@media only screen and (max-width: 1280px) {
-    .contact-title{
-        font-size: 30px;
+@media only screen and (max-width: 1080px) {
+    .contactForm{
+        width: 90%;
+    }
+
+    .addressLabel{
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 }
 
 @media only screen and (max-width: 970px) {
     .container{
-        padding: 60px 0;
+        padding: 40px 0;
     }
     
     .contactForm{
-        width: 70%;
         min-width: 650px;
     }
 
@@ -140,15 +144,13 @@
 
 @media only screen and (max-width: 760px){
     .contactForm{
-        width: 100%;
         min-width: 260px;
     }
 }
 
 @media only screen and (max-width: 590px){
     .contactForm{
-        width: 100%;
-        min-width: 20a0px;
+        min-width: 200px;
     }
 
     .contact-title{
@@ -174,5 +176,10 @@
 
     .address{
         font-size: 15px;
+    }
+
+    .formButton{
+        height: 45px;
+        border-radius: 30px;
     }
 }

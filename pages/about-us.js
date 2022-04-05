@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import HeaderAbout from "../components/about/header";
 import Goal from "../components/about/goal";
-import Pricing from "../components/home/pricing";
+import Plan from "../components//courses/plan/index"
 import Appointment from "../components/appointment";
 import Community from "../components/about/community";
 import Faq from "../components/faq";
@@ -19,7 +19,7 @@ const AboutUs = () => {
             <HeaderAbout/>
             <Goal/>
             <div className = {styles.title}>Best Value for Money</div>
-            <Pricing/>
+            <Plan/>
             <Community/>
             <Appointment/>
             <Faq/>
