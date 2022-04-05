@@ -1,0 +1,45 @@
+.container{
+    height: fit-content;
+    width: 100%;
+    background: var(--red); 
+    margin: 40px 0;
+}
+
+.appointment{
+    max-width: var(--maxWidth);
+    height: 120px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--monserrat);
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--whiter);
+}
+
+.btn{
+    height: 50px;
+    width: fit-content;
+    padding: 0 20px;
+    border: 2px solid var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--monserrat);
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+    transition: all .3s ease-in-out;
+}

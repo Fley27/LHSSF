@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    height: fit-content;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.star{
+    position: absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: var(--backgroundImage);
+    height: 60px;
+    width: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-left: 80%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}
+
+.title{
+    font-family: var(--prompt);
+    font-size: 40px;
+    font-weight: 500;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+.description{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-align: center;
+    color: var(--gray);
+    font-family: var(--monserrat);
+    line-height: 2;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    width: 80%;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}

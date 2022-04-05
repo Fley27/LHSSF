@@ -1,0 +1,42 @@
+.container{
+    max-width: var(--maxWidth);
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    background-image: url("../images/com-bg.png");
+    width: 200px;
+    background-repeat: no-repeat;
+    left: calc(100% - 200px);
+    margin-right: 0;
+}
+
+.title{
+    font-family: var(--prompt);
+    font-size: 30px;
+    font-weight: 500;
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--red);
+    border-left: 2px solid var(--red);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title::before{
+    content: "Ll";
+    visibility: hidden;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 1.9;
+    width: 65%;
+    font-family: var(--monserrat);
+    font-weight: 500;
+    color: var(--gray);
+}

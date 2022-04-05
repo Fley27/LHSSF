@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 800px;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.background{
+    background: rgb(255,255,255);
+    background: var(--yellowGradient)
+}
+
+@media only screen and (max-width: 830px) {
+    .container{
+        min-height: 900px;
+        height: fit-content;
+    }
+}

@@ -1,0 +1,42 @@
+.container{
+    width: 80%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    justify-content: space-between;
+    color: var(--black);
+    z-index: 1;
+}
+
+.logo{
+    height: fit-content;
+    margin: auto 0;
+    font-family: var(--prompt);
+    font-size: 50px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    font-family: var(--monserrat);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.item{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container{
+        width: 90%;
+    }
+}

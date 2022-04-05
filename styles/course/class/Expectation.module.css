@@ -1,0 +1,78 @@
+.container{
+    max-width: var(--maxWidth);
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.title{
+    font-family: var(--prompt);
+    font-size: 30px;
+    font-weight: 500;
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--red);
+    border-left: 2px solid var(--red);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title::before{
+    content: "Ll";
+    visibility: hidden;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 1.9;
+    width: 80%;
+    font-family: var(--monserrat);
+    color: var(--black);
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.reasons{
+    margin: 30px 0;
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.item{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.bar{
+    display: inline-block;
+    height: 3px;
+    width: 25px;
+    background: var(--red);
+    margin-right: 15px;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 50px;
+    width: fit-content;
+    padding: 0 20px;
+    border: 2px solid var(--red);
+    color: var(--red);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--monserrat);
+    border-radius: 25px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: var(--white);
+    background-color: var(--red);
+}

@@ -1,0 +1,178 @@
+.container{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: var(--monserrat);
+}
+
+
+.contactForm{
+    width: 80%;
+    max-width: var(--maxWidth);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.addressLabel{
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: var(--prompt);
+    color: var(--black);
+}
+
+.address{
+    text-align: left;
+    color: var(--Gray);
+    margin-bottom: 18px;
+    line-height: 2;
+}
+
+.address > a{
+    color: var(--red);
+    text-decoration: none;
+}
+
+.item{
+    width: 100%;
+    height: fit-content;
+}
+
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.rowContact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 70px;
+    margin: 10px 0;
+}
+
+.colContact{
+    width: 45%;
+    height: 100%;
+}
+
+.form input,
+.form textarea{
+    width: 100%;
+    height: 55px;
+    background-color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    color: var(--Gray);
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-family: var(--prompt);
+}
+
+.rowContact:nth-child(3){
+    height: 180px;
+}
+
+.form textarea{
+    height: 150px;
+}
+
+.form input:focus,
+.form textarea:focus{
+    outline: none;
+}
+
+.formButton{
+    width: 170px;
+    height: 55px;
+    margin: 0;
+    background: transparent;
+    border: 2px var(--red) solid;
+    font-size: 16px;
+    color: var(--red);
+    z-index: 1;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: var(--prompt);
+}
+
+.formButton:hover{
+    background-color: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 1280px) {
+    .contact-title{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .container{
+        padding: 60px 0;
+    }
+    
+    .contactForm{
+        width: 70%;
+        min-width: 650px;
+    }
+
+    .contact-title{
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+
+    .about-information{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .contactForm{
+        width: 100%;
+        min-width: 260px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .contactForm{
+        width: 100%;
+        min-width: 20a0px;
+    }
+
+    .contact-title{
+        font-size: 30px;
+    }
+
+    .rowContact{
+        height: fit-content;
+    }
+
+    .colContact{
+        width: 100%;
+    }
+
+    .colContact:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+    .addressLabel{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .address{
+        font-size: 15px;
+    }
+}
