@@ -6,6 +6,11 @@ import styles from "../../styles/header/Header-body-contact.module.css"
 const HeaderBodyCourseBasic = () => (
     <div className = {styles.container} >
         <div className = {styles.overlay}></div>
+        <div className = {styles.backgroundLeft}>
+            <div className = {`${styles.triangle} ${styles.down}`}></div>
+            <div className = {`${styles.curvedarrow}`}></div>
+            <div className = {`${styles.heart}`}></div>
+        </div>
         <div className = {styles.information}>
             <div className = {styles.item}>
                 <div className = {styles.square}></div>
@@ -22,10 +27,7 @@ const HeaderBodyCourseBasic = () => (
                 </div>
                 <div className = {styles.btns}>
                     <div className = {`${styles.btn}  ${styles.getStarted}`}>
-                        Apply Today
-                    </div>
-                    <div className = {`${styles.btn}  ${styles.btnContact}`}>
-                        Set an Appointment
+                        Take a Test
                     </div>
                 </div>
             </div>

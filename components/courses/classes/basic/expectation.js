@@ -1,8 +1,8 @@
 import CardExpectation from "./card-express";
-import woman from "../../../../images/woman-min_ccexpress.png"
+import woman from "../../../../images/pretty-woman.png"
 import order from "../../../../images/payment.png"
 import styles from "../../../../styles/course/class/Expectation.module.css";
-
+ 
 const Expectation = () => (
     <div className = {styles.container}>
         <div className = {styles.title}>

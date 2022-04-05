@@ -31,14 +31,13 @@
     position: relative;
     width: calc(100% + 300px);
     height: calc(100% + 300px);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 .title{
     line-height: 1.4;
     font-size: 30px;
     font-weight: 600;
-    color: var(--purple);
+    color: var(--red);
 }
 
 .description{
@@ -71,7 +70,91 @@
     display: inline-block;
     height: 3px;
     width: 25px;
-    background: var(--purple);
+    background: var(--red);
     margin-right: 15px;
     clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
+}
+
+@media only screen and (max-width: 1080px) {
+    .title{
+        font-size: 25px;
+        line-height: 1.6;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .image{
+        width: 100%;
+    }
+
+    .vector .item > .image{
+        width: 100% + 250px;
+    }
+
+    .reverse > .item > .image{
+        width: calc(100% + 350px);
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .item{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .title{
+        font-size: 25px;
+        line-height: 1.6;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .image{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .reverse > .item > .image{
+        width: calc(100% + 250px);
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .title{
+        font-size: 22px;
+    }
+
+    .image{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .title{
+        font-size: 22px;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+
+    .reasons{
+        font-size: 15px;
+    }
+
+    .image{
+        height: 250px;
+    }
 }

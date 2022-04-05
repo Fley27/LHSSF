@@ -17,6 +17,7 @@
     max-width: var(--maxWidth);
     width: 80%;
     border-left: 2px solid var(--red);
+    margin-bottom: 30px;
 }
 
 .title::before{
@@ -27,5 +28,35 @@
 @media only screen and (max-width: 1280px) {
     .contact-container{
         width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .title{
+        width: 90% ;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .title{
+        border: 0;
+        line-height: 1.4;
+    }
+
+    .title::before{
+        content: "";
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .title{
+        font-size: 22px;
     }
 }

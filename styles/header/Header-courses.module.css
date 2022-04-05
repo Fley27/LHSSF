@@ -1,4 +1,4 @@
-.container{
+.container{ 
     width: 100%;
     height: 600px;
     display: flex;
@@ -25,4 +25,10 @@
 
 .bgCourse{
     background: var(--greenGradient)
+}
+
+@media only screen and (max-width: 850px) {
+    .container{
+        height: fit-content;
+    }
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../../../../styles/course/class/Card-expectation.module.css";
 
 const CardExpectation = ({image, title, description, item1, item2, item3, normal = false}) => (
-    <div className = {`${styles.container}  ${!normal ? styles.reverse : ""}`}>
+    <div className = {`${styles.container}  ${!normal ? styles.reverse : styles.vector}`}>
         <div className = {styles.item}>
             <div className = {styles.title}>
                 {title}
