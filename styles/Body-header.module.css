@@ -171,8 +171,8 @@
 .getStarted{
     margin-right: 30px;
     border-color: var(--green);
-    background-color: var(--green);
-    color: var(--white);
+    color: var(--green);
+    border-radius: 30px;
 }
 
 .btnContact{
@@ -187,7 +187,8 @@
 
 .getStarted:hover{
     background: none;
-    color: var(--green)
+    color: var(--whiter);
+    background-color: var(--green);
 }
 
 .box{

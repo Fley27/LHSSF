@@ -27,7 +27,7 @@ const HeaderBodyCourseAdvanced = () => (
                 </div>
                 <div className = {styles.btns}>
                     <div className = {`${styles.btn}  ${styles.getStarted}`}>
-                        Take a Test
+                        Evaluate your Skills
                     </div>
                 </div>
             </div>

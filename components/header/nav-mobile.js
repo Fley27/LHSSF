@@ -13,7 +13,7 @@ const NavMobile = ({hidden}) => {
                         <button onClick = {()=> window.location.href = "/about-us"} className = { styles.navItemButton}>About</button>
                     </div>
                     <div className = {styles.navItem}>
-                        <button  className = { styles.navItemButton}>My Clients <i className="fas fa-sort-down"></i></button>
+                        <button  className = { styles.navItemButton}>Courses <i className="fas fa-sort-down"></i></button>
                         <div className = {styles.dropdownMobile}>
                             <div onClick = {() => window.location.href  = "/course/basic"} className = {styles.dropdownItem}>Basic Spanish Level</div>
                             <div onClick = {() => window.location.href  = "/course/intermediate"}             className = {styles.dropdownItem}>Pre-Intermediate Spanish Level</div>

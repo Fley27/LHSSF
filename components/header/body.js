@@ -23,10 +23,7 @@ const HeaderBody = () => (
                 </div>
                 <div className = {styles.btns}>
                     <div className = {`${styles.btn}  ${styles.getStarted}`}>
-                        Get Started
-                    </div>
-                    <div className = {`${styles.btn}  ${styles.btnContact}`}>
-                        Contact Us
+                        Evaluate your Skills
                     </div>
                 </div>
             </div>

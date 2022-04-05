@@ -190,8 +190,8 @@
 .getStarted{
     margin-right: 30px;
     border-color: var(--green);
-    background-color: var(--green);
-    color: var(--white);
+    background-color: var(--whiter);
+    color: var(--green);
 }
 
 .btnContact{
@@ -205,8 +205,8 @@
 }
 
 .getStarted:hover{
-    background: none;
-    color: var(--green)
+    background: var(--green);
+    color: var(--whiter)
 }
 
 .btnAbout:hover{
